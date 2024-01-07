@@ -1,0 +1,92 @@
+{
+    "userId": "abcd1234efgh4567ijkl8900",
+    "workouts": [
+        {
+            "id": 1,
+            "date": "05.12.2024",
+            "exercises": [
+                {
+                    "id": 1,
+                    "exerciseId": 3,
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "kilos": 24
+                        },
+                        {
+                            "reps": 12,
+                            "kilos": 24
+                        },
+                        {
+                            "reps": 9,
+                            "kilos": 24
+                        }
+                    ],
+                    "completed": true 
+                }
+            ]
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "name": "Hammer Curls",
+            "category": 1,
+            "hasKilos": true
+        },
+        {
+            "id": 2,
+            "name": "Dumbell Curls",
+            "category": 1,
+            "hasKilos": true
+        },
+        {
+            "id": 3,
+            "name": "Dumbell Bench Press",
+            "category": 2,
+            "hasKilos": true,
+            "history": [
+                {
+                    "workoutId": 1
+                },
+                {
+                    "workoutId": 4
+                },
+                {
+                    "workoutId": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Hang-ups",
+            "category": 3
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Arms"
+        },
+        {
+            "id": 2,
+            "name": "Chest"
+        },
+        {
+            "id": 3,
+            "name": "Back"
+        },
+        {
+            "id": 4,
+            "name": "Legs"
+        },
+         {
+            "id": 5,
+            "name": "Shoulders"
+         },
+         {
+            "id": 6,
+            "name": "Full Body"
+         }
+    ]
+}
