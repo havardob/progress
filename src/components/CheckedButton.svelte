@@ -2,10 +2,10 @@
   export let checked = false;
   export let title = "";
   export let data = "";
-  export let onClick;
+  export let onClick = "";
 </script>
 
-<button class="workout" on:click={onClick}>
+<button class="workout {checked ? "complete" : ""}" on:click={onClick}>
   <div class="workout__content">
     <span class="workout__title">{title}</span>
     <span class="workout__data">{data}</span>

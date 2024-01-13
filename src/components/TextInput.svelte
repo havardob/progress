@@ -14,7 +14,6 @@
     <label for="">{label}</label>
     <span class="description">{description}</span>
     <input type="text" {id} bind:value={value} {placeholder} on:change={onChange} />
-    {value}
 </div>
 
 <style>
@@ -39,7 +38,7 @@
         border-radius: .375rem;
         border: 0.0625rem solid #CCC;
         padding: .75rem .75rem;
-        min-height: 2.5rem;
+        font-size: .875rem;
     }
 
     input::placeholder {

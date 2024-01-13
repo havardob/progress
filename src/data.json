@@ -8,6 +8,7 @@
                 {
                     "id": 1,
                     "exerciseId": 3,
+                    "completed": true,
                     "sets": [
                         {
                             "reps": 12,
@@ -21,8 +22,7 @@
                             "reps": 9,
                             "kilos": 24
                         }
-                    ],
-                    "completed": true 
+                    ]
                 }
             ]
         }
@@ -44,18 +44,7 @@
             "id": 3,
             "name": "Dumbell Bench Press",
             "category": 2,
-            "hasKilos": true,
-            "history": [
-                {
-                    "workoutId": 1
-                },
-                {
-                    "workoutId": 4
-                },
-                {
-                    "workoutId": 5
-                }
-            ]
+            "hasKilos": true
         },
         {
             "id": 4,
@@ -80,13 +69,17 @@
             "id": 4,
             "name": "Legs"
         },
-         {
+        {
             "id": 5,
             "name": "Shoulders"
-         },
-         {
+        },
+        {
             "id": 6,
+            "name": "Abs"
+        },
+        {
+            "id": 7,
             "name": "Full Body"
-         }
+        }
     ]
 }

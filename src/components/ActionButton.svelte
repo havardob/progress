@@ -18,12 +18,15 @@
     border: 0.0625rem solid #d64f35;
     font-weight: 500;
     line-height: 1;
-    text-shadow: 0 0 0.0625rem #000;
     padding-inline: 0.75rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 0.75rem;
+  }
+  
+  .action-btn:has(svg) {
+    justify-content: space-between;
   }
   
   .action-btn:active {
